@@ -1,9 +1,8 @@
 # DS_APPLICATION_OF_CLASSIFICATION_MODELS_Project
 
-1.​ Introduction
-This assignment will help you to consolidate the concepts learnt in the session.
+<b> Project Ongoing </b>
 
-2.​ Problem Statement
+1.​ Problem Statement
 
 This data was extracted from the census bureau database found at
 http://www.census.gov/ftp/pub/DES/www/welcome.html
