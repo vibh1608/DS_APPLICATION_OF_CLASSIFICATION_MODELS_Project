@@ -2,6 +2,9 @@
 
 1.​ Problem Statement
 
+Problem 1:
+Prediction task is to determine whether a person makes over 50K a year. 
+
 This data was extracted from the census bureau database found at
 http://www.census.gov/ftp/pub/DES/www/welcome.html
 Donor: Ronny Kohavi and Barry Becker,
@@ -42,18 +45,15 @@ caveat to remember about this statement. That is that since the CPS sample is ac
 collection of 51 state samples, each with its own probability of selection, the statement
 only applies within state.
 
-Problem 1:
-Prediction task is to determine whether a person makes over 50K a year.
-
 Problem 2:
-Which factors are important ?
+Which factors are important ?\n
 <b>Answer: </b>From plotting the graph it is clear that - 'education_num' , 'age' , 'hours_per_week', 'capital_gain' ,' capital_loss' and 'race' are effecting to the wage_class(income) of the person .Other features don't have correlation with income of the person , So we will use only these features for our machine learning model.
 
 Problem 3:
-Which algorithms are best for this dataset?
-<b>Answer: </b> Xgboost algorithm is the best algorithm which gives the best prediction for the above data. 
-We have used the following algorithms for classifications and their accuracy are:-
-1. Logistic regression -> 81.46249544545523 %
-2. Decision tree classifier -> 81.186075125283 %
-3. Random Forest classifier -> 83.67068019815947 %
+Which algorithms are best for this dataset?\n
+<b>Answer: </b> Xgboost algorithm is the best algorithm which gives the best prediction for the above data. \n
+We have used the following algorithms for classifications and their accuracy are:-\n
+1. Logistic regression -> 81.46249544545523 % \n
+2. Decision tree classifier -> 81.186075125283 % \n
+3. Random Forest classifier -> 83.67068019815947 % \n
 4. Xgboost -> 84.12212705350562 %
