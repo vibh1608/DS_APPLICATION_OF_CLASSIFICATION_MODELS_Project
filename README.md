@@ -43,16 +43,16 @@ tallies" of any specified socio-economic characteristics of the population. Peop
 similar demographic characteristics should have similar weights. There is one important
 caveat to remember about this statement. That is that since the CPS sample is actually a
 collection of 51 state samples, each with its own probability of selection, the statement
-only applies within state.
+only applies within state.</br>
 
 Problem 2:
-Which factors are important ? 
-<b>Answer: </b>From plotting the graph it is clear that - 'education_num' , 'age' , 'hours_per_week', 'capital_gain' ,' capital_loss' and 'race' are effecting to the wage_class(income) of the person .Other features don't have correlation with income of the person , So we will use only these features for our machine learning model.
+Which factors are important ? </br>
+<b>Answer: </b>From plotting the graph it is clear that - 'education_num' , 'age' , 'hours_per_week', 'capital_gain' ,' capital_loss' and 'race' are effecting to the wage_class(income) of the person .Other features don't have correlation with income of the person , So we will use only these features for our machine learning model.</br>
 
 Problem 3:
-Which algorithms are best for this dataset?\n
-<b>Answer: </b> Xgboost algorithm is the best algorithm which gives the best prediction for the above data.
-We have used the following algorithms for classifications and their accuracy are:-
+Which algorithms are best for this dataset?</br>
+<b>Answer: </b> Xgboost algorithm is the best algorithm which gives the best prediction for the above data.</br>
+<b>I have used the following algorithms for the classification and their accuracies are:-</b>
 1. Logistic regression -> 81.46249544545523 % 
 2. Decision tree classifier -> 81.186075125283 % 
 3. Random Forest classifier -> 83.67068019815947 % 
